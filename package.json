@@ -1,0 +1,20 @@
+{
+  "name": "proxyfight",
+  "version": "0.1.0",
+  "description": "WebSocket<->WebSocket proxy",
+  "main": "lib/proxy.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Barnes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/ws": "^4.0.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "ws": "^5.0.0"
+  }
+}
